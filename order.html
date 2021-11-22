@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Welcome to order page</title>
+      <link rel="stylesheet" type="text/css" href="order_style.css">
+   </head>
+   <body>
+       <div id="wrapper">
+            <h1>IMS Order Form</h1>
+            <br><br>
+            <h2 id="hitem">Items</h2> <h2 id="hqty">Qty</h2>
+            <br><br>
+
+            <form id="imsform" action="/action_page.php" method="get">
+                <!-- <label for="fname">Items</label><label for="qty">Qty</label><br> -->
+                <select  id="fname" name="fname" value="select">
+                    <option value="select" selected>select</option>
+                </select> 
+                <input type="number" id="qty"name="quantity" min=0><br><br>
+                <!-- <label for="fname">Items</label><label for="qty">Qty</label><br> -->
+                
+                <select  id="fname" name="fname" value="select">
+                    <option value="select" selected>select</option>
+                </select> 
+                <input type="number" id="qty"name="quantity" min=0><br><br>
+
+                <!-- <label for="fname">Items</label><label for="qty">Qty</label><br> -->
+                <select  id="fname" name="fname" value="select">
+                    <option value="select" selected>select</option>
+                </select> 
+                <input type="number" id="qty" name="quantity" min=0><br><br>
+                <!-- <label for="fname">Items</label><label for="qty">Qty</label><br> -->
+                <select  id="fname" name="fname" value="select">
+                    <option value="select" selected>select</option>
+                </select> 
+                <input type="number" id="qty" name="quantity" min=0><br><br>
+                <!-- <label for="fname">Items</label><label for="qty">Qty</label><br> -->
+                <select  id="fname" name="fname" value="select">
+                    <option value="select" selected>select</option>
+                </select> 
+                <input type="number" id="qty"name="quantity" min=0><br><br>
+                <label id="email_label" for="email_input">Email</label><br>
+                <input id="email_input", type="text", name="email">
+                <input id="submit" type="submit" value="Submit Order">
+            </form> 
+      </div><!-- end of wrapper -->
+   </body>
+</html>

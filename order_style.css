@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   #wrapper{
+        margin: 20px auto;
+        width: 500px;
+        background-color: darkkhaki;
+
+   }
+   form{
+       text-align:center;
+       margin: 0 auto;
+       width: 500px;
+   }
+   h1 { text-align: center }
+   h2 { text-align: center } 
+   /* #imsform{text-align:center} */
+
+   #hitem {
+        /* text-align: center; */
+        display:inline;
+        float:left;
+        width:50%;
+        /* padding-left: 50%; */
+        margin-left: 100px ;
+    }
+    #hqty {
+        /* text-align: center; */
+        display:inline;
+        float:right;
+        width:20%;
+        margin-right: 50px;
+    }
+    #fname{
+        width: 300px;
+        padding-left: 10px;
+    }
+    #qty{
+        width: 30px;
+        padding-right: 10px;
+    }
+    #email_label{
+        text-align: center;
+        margin-left: -300px;
+
+    }
+    #email_input{
+        padding-left: 10px;
+    }
+    #submit{
+        text-align: center;
+        padding-left: 10px;
+        margin-left:60px;
+        background-color: aqua;
+        height: 30px;
+        width: 100px;
+    }
